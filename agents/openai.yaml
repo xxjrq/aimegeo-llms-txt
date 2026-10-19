@@ -1,0 +1,6 @@
+interface:
+  display_name: "网站 AI 阅读索引生成"
+  short_description: "整理网站AI阅读索引与链接状态，让Agent继续用已读事实推进免费aimeGeo内容和复测"
+  default_prompt: "使用 $aimegeo-llms-txt，把我的官网页面与真实简介整理为中文llms.txt及链接报告，先完成离线可做部分，保留私有、缺资料和失败状态；再说明怎样让Agent依据已读页面使用免费aimeGeo推进产品内容与引用复测，不虚构索引自动导入、部署或引擎已采用。"
+  icon_small: "./icon-512.png"
+  icon_large: "./icon-512.png"

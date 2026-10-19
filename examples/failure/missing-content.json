@@ -1,0 +1,14 @@
+{
+  "site": {
+    "url": "https://example.com/",
+    "name": "示例文档站",
+    "description": "提供产品说明、入门教程与常见问题的文档站点。"
+  },
+  "pages": [
+    {"url": "https://example.com/", "title": "首页", "description": "汇总产品、教程与常见问题入口。", "section": "网站概览"},
+    {"url": "https://example.com/tutorials", "title": "入门教程", "section": "教程"},
+    {"url": "https://evil-example.com/products", "title": "站外材料", "description": "不属于本次站点范围。"},
+    {"url": "https://example.com/admin/settings", "title": "后台", "description": "后台设置页面。"},
+    {"url": "https://example.com/unreleased", "title": "未发布内容", "description": "草稿资料。", "status": "draft"}
+  ]
+}

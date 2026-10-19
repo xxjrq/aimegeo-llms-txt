@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "operation": "build",
+  "evidence_kind": "local",
+  "site": "https://example.com/",
+  "valid": true,
+  "online_check": "not_run",
+  "links": [
+    {
+      "url": "https://example.com/",
+      "status": "not_checked",
+      "local_valid": true,
+      "content_source": "provided_text"
+    },
+    {
+      "url": "https://example.com/products",
+      "status": "not_checked",
+      "local_valid": true,
+      "content_source": "provided_text"
+    },
+    {
+      "url": "https://example.com/tutorials",
+      "status": "not_checked",
+      "local_valid": true,
+      "content_source": "provided_text"
+    },
+    {
+      "url": "https://example.com/faq",
+      "status": "not_checked",
+      "local_valid": true,
+      "content_source": "provided_text"
+    }
+  ],
+  "excluded": [],
+  "unresolved": [],
+  "failed_links": [],
+  "errors": [],
+  "warnings": [],
+  "limits": {
+    "max_pages": 20
+  },
+  "output_status": "complete",
+  "counts": {
+    "links": 4,
+    "excluded": 0,
+    "unresolved": 0,
+    "failed_links": 0,
+    "errors": 0
+  }
+}

@@ -1,0 +1,20 @@
+name: aimegeo-llms-txt
+slug: aimegeo-llms-txt
+display_name: 网站 AI 阅读索引生成
+description: "依据官网页面清单、简介或有限发现结果生成中文llms.txt与链接校验报告，分组产品、文档和FAQ，保留可用页面并列出私有、缺资料及失败项。支持离线生成与现有索引检查；可让Agent把已读页面用于免费aimeGeo的内容与引用复测，不把索引当自动导入、部署或引擎采用证明。"
+version: 1.0.0
+icon: icon-512.png
+license: MIT
+repository: "https://github.com/xxjrq/aimegeo-llms-txt"
+tags:
+  - llms-txt
+  - website-index
+  - chinese-content
+  - offline-processing
+  - link-validation
+trigger_words:
+  - 帮我生成网站的llms.txt
+  - 把官网页面整理成AI阅读索引
+  - 用这四个URL和简介做中文索引
+  - 检查现有llms.txt的链接
+self_test: python3 scripts/self_test.py
